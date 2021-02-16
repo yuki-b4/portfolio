@@ -1,0 +1,31 @@
+/*トップページ*/
+.top_image {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.status__box_middle {
+  display: flex;
+}
+
+.status__box_middle {
+  width: 100vw;
+}
+
+.status__box_middle_left {
+  width: 70vw;
+}
+
+.status__box_middle_left_title {
+  font-family: 'Truculenta', sans-serif;
+}
+
+
+.status__box_middle_right {
+  width: 30vw;
+}
+
+.status__box_middle_right_title {
+  font-family: 'Truculenta', sans-serif;
+}
