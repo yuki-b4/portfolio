@@ -19,6 +19,7 @@
 
 .status__box_middle_left_title {
   font-family: 'Truculenta', sans-serif;
+  margin-left: 5vw;
 }
 
 
@@ -28,4 +29,36 @@
 
 .status__box_middle_right_title {
   font-family: 'Truculenta', sans-serif;
+}
+
+.status__box_middle_right_my-photo_size {
+  width: 70%;
+  height: auto;
+  margin: 10px 0 20px 50px;
+}
+
+/*アイコン*/
+
+.status__box_middle_right_icons {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 20px 30px;
+  
+}
+.fab {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.status__box_middle_right_github .status__box_middle_right_facebook {
+  font-size: 24px;
+  
+}
+
+.status__box_middle_right_icons_note {
+  width: 25px;
+}
+
+.note_icon {
+  width: 24px;
 }

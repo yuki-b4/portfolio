@@ -5,10 +5,25 @@
     </div>
     <div class="status__box_middle">
       <div class="status__box_middle_left">
-        <h2 class="status__box_middle_left_title">Status</h2>
+        <h2 class="status__box_middle_left_title">-Status-</h2>
+        
       </div>
       <div class="status__box_middle_right">
-        <h2 class="status__box_middle_right_title">It's me!!</h2>
+        <h2 class="status__box_middle_right_title">-It's me!!-</h2>
+        <div class="status__box_middle_right_my-photo">
+          <%= image_tag("my_photo", class:"status__box_middle_right_my-photo_size")%>
+        </div>
+        <div class="status__box_middle_right_icons">
+          <div class="status__box_middle_right_icons_github">
+            <%= link_to "", "https://github.com/yuki-b4", class:"fab fa-github fa-lg" %>
+          </div>
+          <div class="status__box_middle_right_icons_facebook">
+            <%= link_to "", "https://www.facebook.com/", class:"fab fa-facebook fa-lg"%>
+           </div>
+          <div class="status__box_middle_right_icons_note">
+              <%= link_to image_tag("note_logo_symbol.png", class:"fab note_icon"), "https://note.com/youcan08"%>
+          </div>
+        </div>
       </div>
     </div>
 </div>
