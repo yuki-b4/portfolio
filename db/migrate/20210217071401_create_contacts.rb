@@ -1,6 +1,6 @@
-class CreateStatuses < ActiveRecord::Migration[6.0]
+class CreateContacts < ActiveRecord::Migration[6.0]
   def change
-    create_table :statuses do |t|
+    create_table :contacts do |t|
       t.string :name, null: false
       t.text :message, null: false
       t.timestamps

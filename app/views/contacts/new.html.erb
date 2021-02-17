@@ -1,0 +1,15 @@
+<div class="status__box_lower">
+  <div class="status__box_lower_comment">
+    <%= form_with url:  do |f|%>
+      <div class="status__box_lower_comment_name">
+        <%= f.label :name%>
+        <%= f.text_field :name%><br />
+      </div>
+      <div class="status__box_lower_comment_message">
+        <%= f.label :message%>
+        <%= f.text_field :message%><br />
+      </div>
+      <%= f.submit "送信"%>
+    <% end %>
+  </div>
+</div>
