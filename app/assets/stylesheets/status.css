@@ -14,7 +14,7 @@
 }
 
 .status__box_middle_left {
-  width: 70vw;
+  width: 75vw;
 }
 
 .status__box_middle_left_title {
@@ -24,25 +24,46 @@
 
 
 .status__box_middle_right {
-  width: 30vw;
+  width: 25vw;
+  position: relative;
+  
 }
 
 .status__box_middle_right_title {
   font-family: 'Truculenta', sans-serif;
 }
 
+.status__box_middle_right_my-photo {
+
+}
+
 .status__box_middle_right_my-photo_size {
-  width: 70%;
+  width: 50%;
   height: auto;
-  margin: 10px 0 20px 50px;
+  margin-left: 33%;
+}
+
+.status__box_middle_left_profile {
+  margin-left: 5vw;
+}
+
+.profile {
+  margin: 2vh;
+  list-style-type: square;
+}
+
+.status__box_middle_left_profile_dream {
+  font-weight: 700;
 }
 
 /*アイコン*/
 
 .status__box_middle_right_icons {
+  position: absolute;
   display: flex;
   align-items: center;
-  margin: 10px 0 20px 30px;
+  right: 20%;
+  top: 98%;
   
 }
 .fab {
@@ -62,3 +83,4 @@
 .note_icon {
   width: 24px;
 }
+
