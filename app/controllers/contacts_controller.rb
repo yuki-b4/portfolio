@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  def index
+  def new
     @ask = Status.new
   end
 
