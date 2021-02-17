@@ -1,6 +1,6 @@
 <div class="status__box_lower">
   <div class="status__box_lower_comment">
-    <%= form_with url:  do |f|%>
+    <%= form_with model: @ask do |f|%>
       <div class="status__box_lower_comment_name">
         <%= f.label :name%>
         <%= f.text_field :name%><br />

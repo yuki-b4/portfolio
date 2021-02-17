@@ -1,11 +1,11 @@
 class ContactsController < ApplicationController
   def new
-    @ask = Status.new
+    @contact = Contact.new
   end
 
   def create
-    @ask = Status.new(status_params)
-    if @ask.save
+    @contact = Contact.new(status_params)
+    if @contact.save
       ContactMailer.contact_mail(@contact).deliver
       redirect_to root_path
     else
