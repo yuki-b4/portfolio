@@ -1,8 +1,15 @@
 /*トップページ*/
-.top_image {
-  width: 100vw;
-  height: auto;
-  margin-bottom: 30px;
+.status__box_top {
+  background-color: #393e46;
+  height: 50%;
+
+}
+.status__box_top_name {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+  font-size: 59px;
+  color: #eeeeee;
+  padding:2px 20px;
 }
 
 .status__box_middle {

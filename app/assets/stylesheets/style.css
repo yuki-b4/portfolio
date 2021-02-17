@@ -1,8 +1,14 @@
+header{
+  width: 100vw;
+  height: 6vh;
+  background-color: #181811;
+}
+
+
 body {
   background-color: #eeeeee;
 }
-
 footer {
   margin: 10vh 0;
-  text-align: center  ;
+  text-align: center;
 }

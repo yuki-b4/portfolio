@@ -4,7 +4,8 @@
     <title>Yuki Saito</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Truculenta&display=swap" rel="stylesheet">
@@ -14,6 +15,15 @@
   </head>
 
   <body>
+    <header>
+      <div class="header__left">
+        <div class="header__left_name">
+        </div>
+      </div>
+      <div clsss="header__right">
+        <div class="header__right_">
+      </div>
+    </header>
     <%= yield %>
     <footer>お問い合わせはcapou0872@gmail.comまで</footer>
   </body>
