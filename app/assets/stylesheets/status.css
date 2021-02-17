@@ -43,7 +43,7 @@
 .status__box_middle_right_my-photo_size {
   width: 50%;
   height: auto;
-  margin-left: 33%;
+  
 }
 
 .status__box_middle_left_profile {
@@ -66,12 +66,11 @@
   display: flex;
   align-items: center;
   width: 100%;
-  left: 25%;
 }
 .fab {
   text-decoration: none;
 
-  margin:20px 0 0 30px;
+  margin:20px 0 0 10px;
 }
 
 .status__box_middle_right_github, .status__box_middle_right_facebook {
@@ -80,11 +79,10 @@
 
 .status__box_middle_right_icons_note, .status__box_middle_right_icons_qiita {
   width: 24px;
-  
 }
 
 .status__box_middle_right_icons_qiita {
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .note_icon, .qiita_icon {

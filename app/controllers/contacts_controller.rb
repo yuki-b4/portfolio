@@ -16,6 +16,6 @@ class ContactsController < ApplicationController
   private
 
   def status_params
-    params.require(:status).perrmit(:name, :message)
+    params.require(:contact).permit(:name, :message)
   end
 end
