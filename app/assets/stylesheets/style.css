@@ -1,7 +1,26 @@
 header{
   width: 100vw;
   height: 6vh;
-  background-color: #181811;
+  background-color: #222831;
+}
+.header__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 150px;
+  height: 100%;
+} 
+.header__list_common {
+  color: #eeeeee;
+  text-align: center;
+  font-size: 26px;
+  width: calc((100vw - 300px) / 4);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.header__list_common:hover {
+  background: #05858c;
+  color: white;
+  border-radius: 10px;
 }
 
 

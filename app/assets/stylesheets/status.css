@@ -2,14 +2,14 @@
 .status__box_top {
   background-color: #393e46;
   height: 50%;
-
+  margin-bottom: 70px;
 }
 .status__box_top_name {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Barlow', sans-serif;
   letter-spacing: 1px;
   font-size: 59px;
   color: #eeeeee;
-  padding:2px 20px;
+  padding: 10px 20px;
 }
 
 .status__box_middle {
@@ -40,10 +40,6 @@
   font-family: 'Truculenta', sans-serif;
 }
 
-.status__box_middle_right_my-photo {
-
-}
-
 .status__box_middle_right_my-photo_size {
   width: 50%;
   height: auto;
@@ -69,25 +65,29 @@
   position: absolute;
   display: flex;
   align-items: center;
-  right: 20%;
-  top: 98%;
-  
+  width: 100%;
+  left: 25%;
 }
 .fab {
   text-decoration: none;
-  margin-left: 15px;
+
+  margin:20px 0 0 30px;
 }
 
-.status__box_middle_right_github .status__box_middle_right_facebook {
+.status__box_middle_right_github, .status__box_middle_right_facebook {
   font-size: 24px;
+}
+
+.status__box_middle_right_icons_note, .status__box_middle_right_icons_qiita {
+  width: 24px;
   
 }
 
-.status__box_middle_right_icons_note {
-  width: 25px;
+.status__box_middle_right_icons_qiita {
+  margin-left: 30px;
 }
 
-.note_icon {
+.note_icon, .qiita_icon {
   width: 24px;
 }
 

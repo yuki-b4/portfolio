@@ -39,10 +39,18 @@
             <%= link_to "", "https://www.facebook.com/", class:"fab fa-facebook fa-lg"%>
            </div>
           <div class="status__box_middle_right_icons_note">
-              <%= link_to image_tag("note_logo_symbol.png", class:"fab note_icon"), "https://note.com/youcan08"%>
+              <%= link_to image_tag("note_logo_symbol.png", class:"note_icon"), "https://note.com/youcan08", class:"fab"%>
+          </div>
+          <div class="status__box_middle_right_icons_qiita">
+              <%= link_to image_tag("qiita.png", class:"qiita_icon"), "https://note.com/youcan08", class:"fab"%>
           </div>
         </div>
       </div>
     </div>
-</div>
+    <div class="status__box_lower">
+      <div class="status__box_lower_comment">
+        <%= form_with %>
+      </div>
+    </div>
+  </div>
 </div>
