@@ -32,6 +32,12 @@
       </div>
     </header>
     <%= yield %>
-    <footer>お問い合わせはcapou0872@gmail.comまで</footer>
+    <footer>
+      <% unless current_page?(controller:"contacts", action: "new") %>
+        お問い合わせはこちらから<br/>
+        <%= link_to "お問い合わせフォーム", new_contact_path%>
+      <% end %>
+    </footer>
+
   </body>
 </html>
