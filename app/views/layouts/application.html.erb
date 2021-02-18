@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>Yuki Saito</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8400c6c52d.js" crossorigin="anonymous"></script> 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header>
+      <div class="header__list">
+        <div class="header__list_common header__list_career">
+          Career
+        </div>
+        <div class="header__list_common header__list_productions">
+          Productions
+        </div>
+        <div class="header__list_common header__list_thinking">
+          Thinking
+        </div>
+        <div class="header__list_common header__list_Diary">
+          Diary
+        </div>
+      </div>
+    </header>
     <%= yield %>
+    <footer>
+      <% unless current_page?(controller:"contacts", action: "new") %>
+        お問い合わせはこちらから<br/>
+        <%= link_to "お問い合わせフォーム", new_contact_path%>
+      <% end %>
+    </footer>
+
   </body>
 </html>

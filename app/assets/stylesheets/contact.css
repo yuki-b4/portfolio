@@ -1,0 +1,21 @@
+
+.title {
+  text-align: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+}
+
+.label, .form {
+  display: block;
+}
+.contact__box_name_form {
+  padding: 10px 20px;
+}
+.contact__box_message_form {
+  padding: 50px 100px;
+}

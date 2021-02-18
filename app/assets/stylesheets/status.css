@@ -1,0 +1,91 @@
+/*トップページ*/
+.status__box_top {
+  background-color: #393e46;
+  height: 50%;
+  margin-bottom: 70px;
+}
+.status__box_top_name {
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 1px;
+  font-size: 59px;
+  color: #eeeeee;
+  padding: 10px 20px;
+}
+
+.status__box_middle {
+  display: flex;
+}
+
+.status__box_middle {
+  width: 100vw;
+}
+
+.status__box_middle_left {
+  width: 75vw;
+}
+
+.status__box_middle_left_title {
+  font-family: 'Truculenta', sans-serif;
+  margin-left: 5vw;
+}
+
+
+.status__box_middle_right {
+  width: 25vw;
+  position: relative;
+  
+}
+
+.status__box_middle_right_title {
+  font-family: 'Truculenta', sans-serif;
+}
+
+.status__box_middle_right_my-photo_size {
+  width: 50%;
+  height: auto;
+  
+}
+
+.status__box_middle_left_profile {
+  margin-left: 5vw;
+}
+
+.profile {
+  margin: 2vh;
+  list-style-type: square;
+}
+
+.status__box_middle_left_profile_dream {
+  font-weight: 700;
+}
+
+/*アイコン*/
+
+.status__box_middle_right_icons {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.fab {
+  text-decoration: none;
+
+  margin:20px 0 0 10px;
+}
+
+.status__box_middle_right_github, .status__box_middle_right_facebook {
+  font-size: 24px;
+}
+
+.status__box_middle_right_icons_note, .status__box_middle_right_icons_qiita {
+  width: 24px;
+}
+
+.status__box_middle_right_icons_qiita {
+  margin-left: 10px;
+}
+
+.note_icon, .qiita_icon {
+  width: 24px;
+}
+

@@ -1,0 +1,16 @@
+<h1 class="title">お問い合わせ</h1>
+<div class="contact">
+  <div class="contact__box">
+    <%= form_with model: @contact do |f|%>
+      <div class="contact__box_name">
+        <%= f.label :name, class:"label contact__box_name_label"%>
+        <%= f.text_field :name, class:"form contact__box_name_form"%><br />
+      </div>
+      <div class="contact__box_message">
+        <%= f.label :message, class:"label contact__box_message_label"%>
+        <%= f.text_field :message, class:"form contact__box_message_form"%><br />
+      </div>
+      <%= f.submit "送信"%>
+    <% end %>
+  </div>
+</div>

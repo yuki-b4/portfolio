@@ -564,3 +564,7 @@
    clip: rect(0, 0, 0, 0);
    position: absolute;
  }
+
+ .wf-notosansjapanese { font-family: "Noto Sans JP"; }
+
+
